@@ -14,7 +14,7 @@ export class WorkflowsPage extends BasePage {
 		await this.clickByTestId('project-plus-button');
 	}
 
-	async clickAddWorklowButton() {
+	async clickAddWorkflowButton() {
 		await this.clickByTestId('add-resource-workflow');
 	}
 
