@@ -393,7 +393,7 @@ export const useUsersStore = defineStore(STORES.USERS, () => {
 
 	const updateEnforceMfa = async (enforce: boolean) => {
 		await mfaApi.updateEnforceMfa(rootStore.restApiContext, enforce);
-		settingsStore.settings.mfa.enforced = enforce;
+		settingsStore.isMFAEnforced = enforce;
 	};
 
 	const fetchUserCloudAccount = async () => {
