@@ -73,6 +73,7 @@
       "dist/nodes/llms/LmChatAzureOpenAi/LmChatAzureOpenAi.node.js",
       "dist/nodes/llms/LmChatAwsBedrock/LmChatAwsBedrock.node.js",
       "dist/nodes/llms/LmChatDeepSeek/LmChatDeepSeek.node.js",
+      "dist/nodes/llms/LMChateBayGateway/LMChateBayGateway.js",
       "dist/nodes/llms/LmChatGoogleGemini/LmChatGoogleGemini.node.js",
       "dist/nodes/llms/LmChatGoogleVertex/LmChatGoogleVertex.node.js",
       "dist/nodes/llms/LmChatGroq/LmChatGroq.node.js",

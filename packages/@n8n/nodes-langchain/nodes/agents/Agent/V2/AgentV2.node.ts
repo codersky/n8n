@@ -70,6 +70,7 @@ function getInputs(hasOutputParser?: boolean): Array<NodeConnectionType | INodeI
 					'@n8n/n8n-nodes-langchain.lmChatMistralCloud',
 					'@n8n/n8n-nodes-langchain.lmChatOllama',
 					'@n8n/n8n-nodes-langchain.lmChatOpenAi',
+					'@n8n/n8n-nodes-langchain.lmChateBayGateway',
 					'@n8n/n8n-nodes-langchain.lmChatGroq',
 					'@n8n/n8n-nodes-langchain.lmChatGoogleVertex',
 					'@n8n/n8n-nodes-langchain.lmChatGoogleGemini',
